@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#1a2740"/></linearGradient>
+<radialGradient id="glow" cx="70%" cy="40%" r="50%"><stop stop-color="#e4b15a" stop-opacity=".35"/><stop offset="1" stop-color="#e4b15a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#glow)"/>
+<g opacity=".15" stroke="#e4b15a" fill="none" stroke-width="2">
+<path d="M0 420 Q300 300 600 380 T1200 320"/>
+<path d="M0 460 Q300 340 600 420 T1200 360"/>
+</g>
+<text x="60" y="80" fill="#e4b15a" font-family="sans-serif" font-size="28" opacity=".8">SAN HOC</text>
+</svg>
